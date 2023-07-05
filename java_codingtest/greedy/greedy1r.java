@@ -17,3 +17,4 @@ public class greedy1r {
         System.out.println("sum = " + sum);
     }
 }
+//수열 활용으로 인해 for문이 한개 줄어들었음 주어진 숫자들이 커지더라도 시간 복잡도가 이전 코드에 비해 덜 증가함
