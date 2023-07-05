@@ -19,3 +19,4 @@ public class greedy2 {
 
     }
 }
+//Math라이브러리 사용하지 않고 코딩
