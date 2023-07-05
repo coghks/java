@@ -17,3 +17,4 @@ public class greedy2r {
         System.out.println(result);
     }
 }
+//Math라이브러리 사용으로 인해 코드 길이 감소
