@@ -8,7 +8,7 @@ public class greedy1 {
         int k=sc.nextInt();
         //n개의 수를 공백기준으로 입력받기
         int[] arr=new int[n];
-        for(int i=0;i<n;i++){ //for문 사용으로 인해 시간 복잡도가 커짐
+        for(int i=0;i<n;i++){ 
             arr[i]=sc.nextInt();
 
         }
