@@ -22,3 +22,8 @@ public class gu_hyeonreal2 {
 
     }
 }
+//1.문자열 s받음
+//2.char[]에 각각 하나씩 저장
+//3.sort
+//4.57(9)이하면 다 더함(sum) 아니면 s1에 +함
+//5.마지막에 sum도 s1에 +함
