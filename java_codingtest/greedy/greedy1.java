@@ -31,4 +31,4 @@ public class greedy1 {
 
 
     }
-
+//
