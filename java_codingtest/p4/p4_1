@@ -1,0 +1,20 @@
+import java.util.*;
+
+class Solution {
+    public int[] solution(long n) {
+        String s = Long.toString(n);
+        String s1 = new StringBuilder(s).reverse().toString();
+        char[] ch = s1.toCharArray();
+        int[] answer = new int[ch.length];
+        for (int j=0; j<ch.length; j++){
+            answer[j] = ch[j] - '0';
+        }
+
+        return answer;
+    }
+}
+//프로그래머스 12932번
+//1.문자열로 입력받음
+//2.StringBuilder을 이용해서 반대로 뒤집고 s1에 저장
+//3.문자배열로 변환
+//4.각 문자에서 '0'을 빼고 정수배열에 저장
