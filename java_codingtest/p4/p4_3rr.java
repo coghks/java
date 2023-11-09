@@ -53,3 +53,4 @@ public class Solution {
 //2. 설정된 길이만큼 문자열을 잘라 낸 token의 배열 생성
 //3. 문자열을 비교하며 token의 배열을 하나의 문자열로 압축
 //4. 1~3 과정으로 압축된 문자열 중 가장 짧은 길이 반환
+//https://school.programmers.co.kr/learn/courses/30/lessons/60057?language=java
