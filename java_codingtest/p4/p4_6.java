@@ -32,7 +32,35 @@ public class Solution{
 //3. 2와 같은 방식으로 y의 개수 세기
 //4. 구한 p의 개수와 y의 개수 비교
 //https://school.programmers.co.kr/learn/courses/30/lessons/12916
+
+//향상된 case문
+
+public class Solution {
+    public boolean solution(String s) {
+        int p = 0;
+        int y = 0;
+        for (char c : s.toCharArray()) {
+            switch (c) {
+                case 'p','P' -> p++;
+                case 'y','Y' -> y++;
+                
+            }
+        }
+        return p == y;
+    }
+}
+
+
+
+
+
+
+
       
+        
+
+
+
         
 
 
